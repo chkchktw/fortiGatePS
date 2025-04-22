@@ -170,7 +170,7 @@ def main(input_file, output_file):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print("用法: python forti5.py 整包.conf 輸出.xlsx")
+        print("用法: python fortips.py 備份.conf 輸出.xlsx")
         sys.exit(1)
     main(sys.argv[1], sys.argv[2])
 
